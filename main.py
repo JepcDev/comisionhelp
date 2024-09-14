@@ -27,3 +27,28 @@
 #edad2 = 10
 #edadtotal = edad + edad2
 #print(edadtotal)
+
+#Integer y floats
+#print("INTEGERS")
+#mi_numero = 1 + 3
+
+#print(mi_numero + mi_numero)
+#print(mi_numero)
+#print(type(mi_numero))
+
+#print("\nFLOATS")
+#mi_numero = 5.8
+
+#print(mi_numero)
+#print(type(mi_numero))
+
+#hay que convertir todo lo que se recive del input a un tipo de dato con el cual se pueda trabajar y hacer operaciones matematicas calculos ect
+#edad = input("Dime tu edad: ")
+#print(edad)
+
+#print(type(edad))
+
+
+#Practica
+#num1 = 7.5
+#num2 = 2.5
