@@ -50,5 +50,9 @@
 
 
 #Practica
-#num1 = 7.5
-#num2 = 2.5
+num1 = 7.5
+num2 = 2.5
+
+suma_numero = num1 + num2
+print(suma_numero)
+print(type(suma_numero))
