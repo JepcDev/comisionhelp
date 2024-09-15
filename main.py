@@ -76,9 +76,24 @@
 #print(type(num2))
 
 #Solucion
-edad= input("Dime tu edad: ")
-print(type(edad))
-edad = int(edad)
-print(type(edad))
-nueva_edad = 1 + edad
-print("Tu edad va a ser :" + str(nueva_edad))
+#edad= input("Dime tu edad: ")
+#print(type(edad))
+#edad = int(edad)
+#print(type(edad))
+#nueva_edad = 1 + edad
+#print("Tu edad va a ser :" + str(nueva_edad))
+
+#Formatear cadenas
+anio_nacimiento = int(input("Dime en que año naciste: "))
+anio_actual = int(input("Dime que año es actualmente: "))
+
+#anio_nacimiento = int(anio_nacimiento)
+#anio_actual = int(anio_actual)
+print("El año en el naciste es {}, el año actual es {} y tu edad actual es {}".format(anio_nacimiento,anio_actual,anio_actual-anio_nacimiento))
+#print(f"El año en el naciste es {anio_nacimiento}, el año actual es {anio_actual} y tu edad actual es {anio_actual-anio_nacimiento}")
+
+#Otra forma de formatear
+color = input("Dime tu color favorito: ")
+matricula = 541926
+print(f"El auto es color {color} y su matricula es {matricula}")
+
