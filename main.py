@@ -98,17 +98,30 @@
 #print(f"El auto es color {color} y su matricula es {matricula}")
 
 #Operadores matematicos
-x = 6
-y = 2
-z = 7
-print(f"{x} + {y} es igual a {x + y}")
-print(f"{x} - {y} es igual a {x - y}")
-print(f"{x} * {y} es igual a {x * y}")
-print(f"{x} / {y} es igual a {x / y}")
+#x = 6
+#y = 2
+#z = 7
+#print(f"{x} + {y} es igual a {x + y}")
+#print(f"{x} - {y} es igual a {x - y}")
+#print(f"{x} * {y} es igual a {x * y}")
+#print(f"{x} / {y} es igual a {x / y}")
 
-print(f"{z} dividido al piso // de {y} es igual a {z//y}")
-print(f"{z} modulo de % {y} es igual a {z%y}")
-print(f"{x} elevado ^(**) a la {y} potencia es igual a {x**y}")
-print(f"{x} elevado ^(**) a la {3} potencia es igual a {x**3}")
-print(f"La raiz cuadrada de {x} es igual a {x**0.5}")
+#print(f"{z} dividido al piso // de {y} es igual a {z//y}")
+#print(f"{z} modulo de % {y} es igual a {z%y}")
+#print(f"{x} elevado ^(**) a la {y} potencia es igual a {x**y}")
+#print(f"{x} elevado ^(**) a la {3} potencia es igual a {x**3}")
+#print(f"La raiz cuadrada(**0.5) de {x} es igual a {x**0.5}")
+
+#Redondeo
+#resultado = 90/7
+#redondeo = round(resultado,2)
+#print(redondeo)
+
+valor = 95.5555555555
+print(type(valor))
+valor = round(valor)
+print(round(valor))
+print(type(valor))
+
+
 
