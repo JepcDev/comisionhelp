@@ -84,16 +84,31 @@
 #print("Tu edad va a ser :" + str(nueva_edad))
 
 #Formatear cadenas
-anio_nacimiento = int(input("Dime en que año naciste: "))
-anio_actual = int(input("Dime que año es actualmente: "))
+#anio_nacimiento = int(input("Dime en que año naciste: "))
+#anio_actual = int(input("Dime que año es actualmente: "))
 
 #anio_nacimiento = int(anio_nacimiento)
 #anio_actual = int(anio_actual)
-print("El año en el naciste es {}, el año actual es {} y tu edad actual es {}".format(anio_nacimiento,anio_actual,anio_actual-anio_nacimiento))
+#print("El año en el naciste es {}, el año actual es {} y tu edad actual es {}".format(anio_nacimiento,anio_actual,anio_actual-anio_nacimiento))
 #print(f"El año en el naciste es {anio_nacimiento}, el año actual es {anio_actual} y tu edad actual es {anio_actual-anio_nacimiento}")
 
 #Otra forma de formatear
-color = input("Dime tu color favorito: ")
-matricula = 541926
-print(f"El auto es color {color} y su matricula es {matricula}")
+#color = input("Dime tu color favorito: ")
+#matricula = 541926
+#print(f"El auto es color {color} y su matricula es {matricula}")
+
+#Operadores matematicos
+x = 6
+y = 2
+z = 7
+print(f"{x} + {y} es igual a {x + y}")
+print(f"{x} - {y} es igual a {x - y}")
+print(f"{x} * {y} es igual a {x * y}")
+print(f"{x} / {y} es igual a {x / y}")
+
+print(f"{z} dividido al piso // de {y} es igual a {z//y}")
+print(f"{z} modulo de % {y} es igual a {z%y}")
+print(f"{x} elevado ^(**) a la {y} potencia es igual a {x**y}")
+print(f"{x} elevado ^(**) a la {3} potencia es igual a {x**3}")
+print(f"La raiz cuadrada de {x} es igual a {x**0.5}")
 
