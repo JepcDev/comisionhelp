@@ -117,11 +117,9 @@
 #redondeo = round(resultado,2)
 #print(redondeo)
 
-valor = 95.5555555555
-print(type(valor))
-valor = round(valor)
-print(round(valor))
-print(type(valor))
-
-
+#valor = 95.5555555555
+#print(type(valor))
+#valor = round(valor)
+#print(round(valor))
+#print(type(valor))
 
